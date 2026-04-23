@@ -88,6 +88,8 @@ If you use VSCode, you should open your workspace exactly on the repository root
 
 The design of microarchitecture is free. You can modify definition of io ports and control signal. You can create your own modules or delete existed modules. However, you should not modify any files outside `src`, namely `Qin110Top.scala`, `Tests.scala`, `Tools.scala`. Also, you have to ensure that the io ports of every module used directly in `Qin110Top.scala` unchanged.
 
+For grading, the autograder only uses files under `src/` from your submitted template repository. Changes to files outside `src/` are ignored by the autograder.
+
 # Makefile Usage
 Remember that you should run all the following commands under the repository root.
 
